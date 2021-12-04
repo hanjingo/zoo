@@ -44,6 +44,7 @@ clean:
 	cd 3rd/pbc && make clean
 	cd 3rd/pbc/binding/lua53 && make clean
 	cd 3rd/pbc/binding/lua53 && rm libprotobuf*
+	cd 3rd/lua-cmsgpack && rm -rf build
 
 env:
 	git submodule update --init
