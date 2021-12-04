@@ -1,0 +1,15 @@
+root = "./"
+
+cpath       = root.."cservice/?.so;"
+lua_cpath   = root.."luaclib/?.so;"
+lua_path    = root.."lualib/?.lua;"
+luaservice  = root.."lualib/service/?.lua;"
+            ..root.."logic/?.lua;"
+lualoader   = root.."lualib/loader.lua"
+
+-- preload     = root.."lualib/preload.lua"
+
+harbor  = 0
+thread  = 8
+logpath = "."
+start   = "main"

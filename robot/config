@@ -1,0 +1,11 @@
+cpath       = "cservice/?.so;"
+lua_cpath   = "luaclib/?.so;"
+lua_path    = "lualib/?.lua;"
+luaservice  = "service/common/?.lua;"
+lualoader   = "lualib/loader.lua"
+preload     = "lualib/preload.lua"
+
+harbor  = 0
+thread  = 4
+logpath = "."
+start   = "main"
