@@ -10,3 +10,5 @@ build
 
 # code
 lualib/protobuf.lua
+lualib/str.lua
+lualib/currency.lua

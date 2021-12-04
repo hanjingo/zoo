@@ -10,3 +10,7 @@
 	path = 3rd/lualib
 	url = git@github.com:hanjingo/lualib.git
 	branch = main
+[submodule "3rd/lua-cmsgpack"]
+	path = 3rd/lua-cmsgpack
+	url = git@github.com:antirez/lua-cmsgpack.git
+	branch = master
