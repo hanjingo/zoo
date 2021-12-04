@@ -1,0 +1,12 @@
+[submodule "3rd/skynet"]
+	path = 3rd/skynet
+	url = git@github.com:cloudwu/skynet.git
+	branch = master
+[submodule "3rd/pbc"]
+	path = 3rd/pbc
+	url = git@github.com:cloudwu/pbc.git
+	branch = master
+[submodule "3rd/lualib"]
+	path = 3rd/lualib
+	url = git@github.com:hanjingo/lualib.git
+	branch = main
